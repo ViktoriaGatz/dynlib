@@ -106,7 +106,7 @@ void process(char* paths, char* user, char* delim, char* dir) {
     char* sc;
     int count;
     dir[slen(dir)] = '/';
-    user[slen(user) - 1] = '/';
+    user[slen(user)] = '/';
     char* usersdir = malloc(MAX_PATH * sizeof(char));
     char* subusersdir = malloc(MAX_PATH * sizeof(char));
     scpy(usersdir, dir);

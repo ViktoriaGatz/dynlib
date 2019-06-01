@@ -1,2 +1,2 @@
 all:
-	gcc ./src/*.c -L../STR/ -lMyStr -o main
+	gcc ./src/*.c -lMyStr -o main
